@@ -6,6 +6,7 @@
     {"name": "truck", "definition": "Xe có cabin và khoang hàng tách nhau, gồm xe tải, đầu kéo và bán tải."},
     {"name": "van", "definition": "Xe kín cỡ nhỏ hoặc vừa, cabin và khoang xe liền khối."},
     {"name": "bus", "definition": "Xe buýt, xe khách hoặc minibus có thân/dãy cửa sổ chở khách."},
+    {"name": "bicycle", "definition": "Xe đạp hai bánh chạy bằng sức người, nhận ra khung và bàn đạp."},
     {"name": "motorcycle", "definition": "Xe máy hai bánh có động cơ; sidecar gắn cố định tính cùng xe."},
     {"name": "three_wheeler", "definition": "Phương tiện ba bánh chở người hoặc hàng, gồm tuk-tuk, auto-rickshaw và xích lô đạp."},
     {"name": "person", "definition": "Người thật đi bộ, lái hoặc ngồi trên phương tiện."},
