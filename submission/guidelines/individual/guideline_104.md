@@ -1,8 +1,8 @@
-# Guideline gán nhãn — v0.1 cá nhân — 101
+# Guideline gán nhãn — v0.1 cá nhân — 104
 
 - Phiên bản: v0.1
 - Ngày: 2026-11-16
-- Người viết / duyệt: 101
+- Người viết / duyệt: 104
 
 ## 1. Mục tiêu
 
