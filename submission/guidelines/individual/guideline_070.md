@@ -1,8 +1,8 @@
-# Guideline gán nhãn — v0.1 — 101
+# Guideline gán nhãn — v0.1 — 070
 
 - Phiên bản: v0.1 (bản cá nhân đầu tiên, Pha 1)
 - Ngày: 16/11/2026
-- Người viết / duyệt: 101 (tự viết, chưa qua duyệt)
+- Người viết / duyệt: 070 (tự viết, chưa qua duyệt)
 
 ## 1. Mục tiêu
 
@@ -94,4 +94,4 @@ Chỉ dùng thuộc tính `occluded_level` của nhóm, **không** dùng cờ `o
 | Phiên bản | Thay đổi | Lý do (ca nào) |
 |---|---|---|
 | v0 | Bản khởi đầu của giảng viên | — |
-| v0.1 (101) | Đề xuất thêm lớp `bus`, `tuk_tuk`; ngưỡng `occluded_level`, `truncated`; 12 quy tắc P-01…P-12; bảng ca khó | img_002, 004, 009, 016, 017, 019, 024, 035, 037, 040 và các ảnh khác trong bảng mục 4 |
+| v0.1 (070) | Đề xuất thêm lớp `bus`, `tuk_tuk`; ngưỡng `occluded_level`, `truncated`; 12 quy tắc P-01…P-12; bảng ca khó | img_002, 004, 009, 016, 017, 019, 024, 035, 037, 040 và các ảnh khác trong bảng mục 4 |
