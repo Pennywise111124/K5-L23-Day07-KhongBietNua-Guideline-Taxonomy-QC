@@ -1,0 +1,59 @@
+{
+  "_ghi_chu": "Chỉ chạy fill_decisions.py sau khi nhóm đã họp và xác nhận R-13..R-17. Sửa nguoi_chot (mã thành viên thật sự chốt) và chỉnh câu chữ nếu nhóm chốt khác. Quy tắc sai_lop là mặc định chung; nếu muốn chốt từng ca thì thêm vào overrides theo case_id.",
+  "phien_ban_guideline": "v1.1",
+  "nguoi_chot": "070",
+  "pham_vi_mac_dinh": "lo",
+  "rules": [
+    {
+      "issue_type": "bo_sot_thua",
+      "rule": "R-13",
+      "quyet_dinh": "Một bên vẽ thừa hoặc bỏ sót: áp dụng R-13. Vật cao từ 40 px và che dưới 40% trong cụm vẽ riêng; còn lại thuộc ignore_region; ngoài cụm vẽ riêng nếu cao từ 20 px."
+    },
+    {
+      "issue_type": "bat_dong_ignore",
+      "rule": "R-13",
+      "quyet_dinh": "Lệch về vùng ignore: áp dụng R-13. Chia ignore_region để không đè box vẽ riêng; vật thuộc cụm nhưng đủ ngưỡng 40 px và che dưới 40% phải có box riêng."
+    },
+    {
+      "issue_type": "iou_thap",
+      "rule": "R-15",
+      "quyet_dinh": "IoU thấp: áp dụng R-15. Cạnh box chạm điểm ngoài cùng phần nhìn thấy (sai số tối đa 2 px), tính bộ phận cố định của vật, không tính hàng và vật mang theo."
+    },
+    {
+      "issue_type": "sai_thuoc_tinh",
+      "match_note": "occluded_level",
+      "rule": "R-14",
+      "quyet_dinh": "Lệch occluded_level: áp dụng R-14 (thấy 90% trở lên là 0, 60 đến 90% là 1, 30 đến 60% là 2, dưới 30% là 3; lưỡng lự chọn mức cao)."
+    },
+    {
+      "issue_type": "sai_thuoc_tinh",
+      "match_note": "truncated",
+      "rule": "R-16",
+      "quyet_dinh": "Lệch truncated: áp dụng R-16. yes khi box chạm mép ảnh (cách tối đa 2 px) và vật còn tiếp tục ra ngoài; ngược lại no."
+    },
+    {
+      "issue_type": "co_can_review",
+      "rule": "R-17",
+      "quyet_dinh": "Ca tick can_review: chốt theo R-13 đến R-16 hoặc quy tắc v1.0 liên quan; nhãn cuối không còn can_review."
+    },
+    {
+      "issue_type": "can_review_anh",
+      "rule": "R-17",
+      "quyet_dinh": "Vấn đề cấp ảnh: nhóm chốt theo quy tắc liên quan; nếu chưa có cơ sở thì không vẽ box phỏng đoán."
+    },
+    {
+      "issue_type": "sai_lop",
+      "rule": "mục 2.2",
+      "quyet_dinh": "Hai người gán khác lớp cho cùng một vật: chốt theo thứ tự phân lớp mục 2.2 và ca tham chiếu mục 6 của guideline; người sửa đổi về đúng lớp đó."
+    }
+  ],
+  "overrides": {
+    "_vi_du": {
+      "C007": {
+        "rule": "R-01",
+        "quyet_dinh": "Hai người gán khác lớp: chốt theo mục 2.2 là truck.",
+        "pham_vi": "anh"
+      }
+    }
+  }
+}
