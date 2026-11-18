@@ -140,6 +140,7 @@ img_011.jpg,person,358.0,340.0,22.0,62.0,0,no,calibration
 img_011.jpg,person,194.92,338.81,23.48,65.49,0,no,calibration
 img_011.jpg,person,266.0,337.0,17.0,54.0,0,no,calibration
 img_011.jpg,person,47.52,365.24,57.95,117.48,0,no,calibration
+img_011.jpg,motorcycle,280.0,369.0,332.0,267.0,0,no,calibration
 img_012.jpg,truck,278.33,246.0,681.0,393.33,1,yes,calibration
 img_012.jpg,car,0.0,286.0,250.67,174.67,0,yes,calibration
 img_012.jpg,truck,320.67,208.0,158.67,191.67,1,no,calibration
